@@ -7,6 +7,8 @@
 ## Steps to solution:
 ### 1. The answer is in the image. You have to find what 2^38 equals and change the URL to that instead of zero.
 ### 2. For my solution, I didn't want to keep having to copy and paste the URL, so for this and all further problems I will print the URL at the end of the solution so I can just click the URL. The idea of this challenge is to do things through python, so I figured it would make more sense to do as much as possible through the applications.
+### Note: The URL the answer gives you redirects immediately
+#
 
 # Challenge 1: The solution for this challenge is found in problem-2.py
 ## Hint: Everybody thinks twice before solving this

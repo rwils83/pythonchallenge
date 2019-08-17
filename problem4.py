@@ -1253,5 +1253,5 @@ PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
 '''
 
 answer = "".join(re.findall("[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+", x))
-url = f"http://www.pythonchallenge.com/pc/def/{answer}.php"
+url = f"http://www.pythonchallenge.com/pc/def/{answer}.php" # after going to .html, the answer redirected to .php
 print(url)

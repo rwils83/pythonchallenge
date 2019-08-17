@@ -1252,5 +1252,6 @@ KfErkDaWMFZZeuqDmXKJEGHyToPUhPphfVhgUZgbIuRAtWnroImpJKqqmEZqeNQCKzhjIkKQHURWLXFw
 PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
 '''
 
-answer = re.search(r'[A-Z{3}[a-z]{1}[A-Z]{3}', x)
-print(answer)
+answer = "".join(re.findall("[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+", x))
+url = f"http://www.pythonchallenge.com/pc/def/{answer}.php"
+print(url)

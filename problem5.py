@@ -10,7 +10,7 @@ pattern = re.compile("and the next nothing is (\d+)")
 
 while True:
     content = urlopen(uri % num).read().decode('utf-8')
-    print(content)
+    # print(content)
     if content != "peak.html": # had to run the program without this to find that I needed peak.html
         match = pattern.search(content)
         if match == None:

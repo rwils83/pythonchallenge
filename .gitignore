@@ -127,3 +127,5 @@ dmypy.json
 
 channel.zip
 *.jpg
+*.gfx
+*.png
